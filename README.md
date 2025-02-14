@@ -21,10 +21,10 @@ This repository provides a public overview of our research work, including:
 
 **Title:** Multimodal Generative Deep Learning for ECG Image Digitization and Reconstruction
 
-Our work tackles the challenge of digitizing historical ECG records, which are often available only as scanned images or paper printouts. By fusing spatial features extracted from ECG images with temporal features from raw signals, our deep learning architecture reconstructs high-fidelity digital ECG waveforms. Key points include:
+The paper discusses digitizing legacy ECG records, which are usually only available as scanned images or paper prints. Due to poor image quality and artifacts, these records can present challenges. A multimodal approach is presented here that combines the spatial characteristics of ECG images with the temporal characteristics of raw ECG signals. The framework produces high-quality digital ECG signals using an encoder-decoder architecture and dedicated preprocessing for both modalities. By enhancing signal clarity and preserving diagnostic features, this method facilitates improved automated diagnosis. Key points include:
 
 - **Data Preparation:** Synthetic ECG images are generated and enhanced using various preprocessing techniques, ensuring robustness to noise and artifacts.
-- **Model Architecture:** The framework features an encoder–decoder design that leverages both convolutional neural networks (for image processing) and fully connected layers (for signal processing) to form a unified latent representation.
+- **Model Architecture:** The framework features an encoder-decoder design that leverages both convolutional neural networks (for image processing) and fully connected layers (for signal processing) to form a unified latent representation.
 - **Performance Evaluation:** The reconstructed ECG signals achieve significant improvements in Signal-to-Noise Ratio (SNR), Mean Squared Error (MSE), and Mean Absolute Error (MAE), underscoring the model's accuracy and clinical relevance.
 
 For more detailed information on our methodology and implementation, please refer to the private repository (see below).
