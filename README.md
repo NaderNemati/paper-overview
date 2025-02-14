@@ -12,10 +12,10 @@ ECGs (Electrocardiograms) provide reliable information about cardiovascular heal
 
 This repository provides a public overview of our research work, including:
 
-- **Abstract & Summary:** A concise explanation of the paper's objectives, methodology, and contributions.
-- **Paper Summary:** An explanation of the challenges addressed (e.g., digitization of legacy ECG records) and a description of our multimodal approach.
+- **Abstract & Summary:** An explanation of the paper's goals, methodology, and contributions.
+- **Paper Summary:** A description of the challenges we have addressed (e.g., digitizing legacy ECG records) and our multimodal approach.
 - **Author Information:** Contact details for the corresponding authors.
-- **Access Instructions:** Details on how referees and collaborators can request access to the full code and detailed methodology in a separate, private repository.
+- **Access Instructions:** Detailed instructions for requesting full code and methodology access in a separate, private repository.
 
 ## Paper Summary
 
