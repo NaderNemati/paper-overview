@@ -44,13 +44,13 @@ The complete codebase, along with detailed methodology and additional documentat
 
 ## Authors
 
-- **Ann Author**  
-  Institution, City, Country  
-  Email: [ann.author@example.com](mailto:ann.author@example.com)
+- **Nader Nemati**  
+  University of Turku, Turku, Finland  
+  Email: [naderr.nemati@gmail.com](mailto:naderr.nemati@gmail.com)
 
-- **Charles D Coauthor**  
-  Second Institution, Other City, Country  
-  Email: [charles.coauthor@example.com](mailto:charles.coauthor@example.com)
+- **Mojtaba Jafari Tadi**  
+  University of Turku, Turku, Finland  
+  Email: [mojtaba.jafaritadi@utu.fi](mailto:mojtaba.jafaritadi@utu.fi)
 
 ## License
 
