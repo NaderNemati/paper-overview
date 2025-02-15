@@ -20,21 +20,20 @@ This repository provides a public overview of our research work, including:
 ## Paper Summary
 
 **Title:** Multimodal Generative Deep Learning for ECG Image Digitization and Reconstruction
+This paper discusses digitizing ECG records, which are usually only available as scanned images or paper prints. This type of record can be challenging due to the poor image quality and artifacts. This paper presents a multimodal approach that uses the spatial features of ECG images in conjunction with the temporal features of corresponding raw ECG signals as their labels. Through a combination of encoder-decoder architectures and dedicated preprocessing, the framework produces high-quality digital ECG signals. In addition to improving signal clarity, this method preserves diagnostic features and facilitates automated diagnosis. Key points include:
 
-The paper discusses digitizing legacy ECG records, which are usually only available as scanned images or paper prints. Due to poor image quality and artifacts, these records can present challenges. A multimodal approach is presented here that combines the spatial characteristics of ECG images with the temporal characteristics of raw ECG signals. The framework produces high-quality digital ECG signals using an encoder-decoder architecture and dedicated preprocessing for both modalities. By enhancing signal clarity and preserving diagnostic features, this method facilitates improved automated diagnosis. Key points include:
-
-- **Data Preparation:** Synthetic ECG images are generated and enhanced using various preprocessing techniques, ensuring robustness to noise and artifacts.
-- **Model Architecture:** The framework features an encoder-decoder design that leverages both convolutional neural networks (for image processing) and fully connected layers (for signal processing) to form a unified latent representation.
-- **Performance Evaluation:** The reconstructed ECG signals achieve significant improvements in Signal-to-Noise Ratio (SNR), Mean Squared Error (MSE), and Mean Absolute Error (MAE), underscoring the model's accuracy and clinical relevance.
+- **Data Preparation:** The synthetic ECG images are created and enhanced with various preprocessing techniques to ensure robustness to noise and artifacts.
+- **Model Architecture:** This multimodal framework utilizes both signal encoder and image encoder models to form a unified latent space representation and waveform decoder recunstructs digital ECG signals.
+- **Performance Evaluation:** Reconstructed ECG signals show significant improvements in Signal-to-Noise Ratio (SNR), Mean Squared Error (MSE), and Mean Absolute Error (MAE), indicating the model's accuracy.
 
 For more detailed information on our methodology and implementation, please refer to the private repository (see below).
 
 ## Access to Full Code
 
-The complete codebase, along with detailed methodology and additional documentation, is available in a separate **private repository**. If you are a referee or collaborator interested in accessing the full code, please follow these steps:
+The complete codebase, as well as detailed methodology and additional documentation, is available in a separate **private repository**. If you are a peer reviewer or collaborator interested in accessing the full code, please follow these steps:
 
 1. **Contact the Corresponding Author:**  
-   Send an email to [my.email@example.com](mailto:my.email@example.com) with a brief message stating that you are a referee or collaborator requesting access to the full repository.
+   Send an email to [naderr.nemati@gmail.com](naderr.nemati@gmail.com) with a brief message stating that you are a peer reviewer or collaborator requesting access to the full repository.
 
 2. **Access Grant:**  
    Upon verification, you will be added as a collaborator to the private repository.
